@@ -1,6 +1,8 @@
 import React from 'react';
 import './App.css';
 
+
+
 class App extends React.Component {
   render() {
     return (
@@ -19,6 +21,14 @@ class App extends React.Component {
                 Learn React
               </a> */}
         </header>
+
+              <p>This is a test. Where will this locate & at what size</p>
+
+              
+
+
+
+
       </div>
       
     );
