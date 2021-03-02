@@ -1,5 +1,6 @@
 import React from 'react';
 import './App.css';
+import SubjectsContainer from './SubjectsContainer';
 
 
 
@@ -24,7 +25,7 @@ class App extends React.Component {
 
               <p>This is a test. Where will this locate & at what size</p>
 
-              
+              <SubjectsContainer />
 
 
 
