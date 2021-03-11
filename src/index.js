@@ -15,7 +15,7 @@ const store = createStore(
   rootReducer,
   composeWithDevTools(applyMiddleware(thunk))
 )
-console.log(store)
+// console.log(store)
 
 ReactDOM.render(
   <Provider store={store}>
