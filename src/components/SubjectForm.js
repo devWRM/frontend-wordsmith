@@ -25,6 +25,10 @@ class SubjectForm extends Component {
     handleSubmit = e => {
         e.preventDefault()
         this.props.newSubject(this.state)
+
+        this.setState({
+            name: ""
+        })        
     }
 
 
