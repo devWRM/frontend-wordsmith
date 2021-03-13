@@ -3,6 +3,7 @@ import React, { Component } from 'react';
 import { connect } from 'react-redux';
 
 import { fetchSubjects} from '../actions/subjectActions.js';
+import SubjectForm from './SubjectForm.js';
 import SubjectList from './SubjectList.js';
 
 
@@ -18,6 +19,7 @@ class SubjectsContainer extends Component {
             <div>
                 This is the SubjectsContainer
 
+                <SubjectForm />
                 <SubjectList />
 
 
