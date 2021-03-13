@@ -12,9 +12,11 @@ class SubjectForm extends Component {
 
     render() {
         return (
-            <div>
-                
-            </div>
+            <form>
+                <label>Subject Name: </label>
+                <input type='text' value={this.state.nam} onChange={this.handleChange} name='name'></input>
+                <input type='submit' value='New Subject'></input>
+            </form>
         )
     }
 }
