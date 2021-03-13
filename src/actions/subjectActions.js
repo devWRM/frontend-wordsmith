@@ -6,3 +6,20 @@ export const fetchSubjects = () => {
         // .then(subjects => console.log('fetchSubjects', subjects))
     }
 }
+
+export const newSubject = (subjectInput) => {
+    return (dispatch) => {
+        fetch('http://localhost:3000/subjects', {
+            method: 'POST',
+            body: JSON.stringify(subjectInput),
+            headers: { 'Content-Type': 'application/json', 'Accept': 'application/json'}
+        })
+        .then(resp => resp.json())
+        .then(dataSubject => dispatch({ type: 'NEW_SUBJECT', payload: dataSubject }))
+
+    }
+}
+
+
+
+
