@@ -1,4 +1,8 @@
-import React, { Component } from 'react'
+import React, { Component } from 'react';
+import { connect } from 'react-redux';
+
+import { newSubject } from '../actions/subjectActions.js';
+
 
 class SubjectForm extends Component {
 
@@ -18,7 +22,10 @@ class SubjectForm extends Component {
         })
     }
 
-    
+    handleSubmit = e => {
+        e.preventDefault()
+        this.props.newSubject(this.state)
+    }
 
 
     render() {
@@ -32,4 +39,4 @@ class SubjectForm extends Component {
     }
 }
 
-export default SubjectForm;
+export default connect(null, { newSubject })(SubjectForm);
