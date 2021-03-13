@@ -9,10 +9,21 @@ class SubjectForm extends Component {
         }
     }
 
+    handleChange = e => {
+        // console.log(e.target)
+        const { name, value } = e.target
+
+        this.setState({
+            [name]: value
+        })
+    }
+
+    
+
 
     render() {
         return (
-            <form>
+            <form onSubmit={this.handleSubmit}>
                 <label>Subject Name: </label>
                 <input type='text' value={this.state.nam} onChange={this.handleChange} name='name'></input>
                 <input type='submit' value='New Subject'></input>
