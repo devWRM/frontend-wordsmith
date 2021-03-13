@@ -4,6 +4,8 @@ export const subjectsReducer = (state = [], action) => {
 
         case 'FETCH_SUBJECTS':
             return action.payload
+        case 'NEW_SUBJECT':
+            return [...state, action.payload]
         default:
             return state
 
