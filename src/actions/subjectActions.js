@@ -15,8 +15,7 @@ export const newSubject = (subjectInput) => {
             headers: { 'Content-Type': 'application/json', 'Accept': 'application/json'}
         })
         .then(resp => resp.json())
-        .then(dataSubject => dispatch({ type: 'NEW_SUBJECT', payload: dataSubject }))
-
+        .then(subjectData => dispatch({ type: 'NEW_SUBJECT', payload: subjectData }))
     }
 }
 
