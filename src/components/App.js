@@ -23,7 +23,7 @@ class App extends React.Component {
               </a> */}
         </header>
 
-              <p>This is a test. Where will this locate & at what size</p>
+              <p>This is App.js</p>
 
               <SubjectsContainer />
 
