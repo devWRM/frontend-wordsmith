@@ -1,11 +1,21 @@
-import React from 'react'
+import React from 'react';
 
-function SubjectList() {
+import { connect } from 'react-redux';
+
+function SubjectList(props) {
     return (
         <div>
-            SubjectList
+            SubjectList<br></br>
+            { props.subjects.length ? props.subjects.map(subject => 
+                <li>{subject.name}</li>         
+            )
+             : <p>Add a subject to begin.</p>}
         </div>
     )
 }
 
-export default SubjectList
+const mapStateToProps = (state) => {
+    return { subjects: state.subjects }
+}
+
+export default connect(mapStateToProps)(SubjectList);
