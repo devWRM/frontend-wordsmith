@@ -1,4 +1,6 @@
-import React, { Component } from 'react'
+import React, { Component } from 'react';
+
+import WordForm from './WordForm.js';
 
 class WordsContainer extends Component {
 
@@ -6,6 +8,8 @@ class WordsContainer extends Component {
         // debugger;
         return (
             <div>
+
+                <WordForm />
                 
                 {this.props.words.map(word =>
                     <div key={word.id}>
