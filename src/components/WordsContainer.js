@@ -9,9 +9,9 @@ class WordsContainer extends Component {
         return (
             <div>
 
-                <WordForm />
+                <WordForm subject={this.props.subject}/>
                 
-                {this.props.words.map(word =>
+                {this.props.subject.words.map(word =>
                     <div key={word.id}>
                         <p>{word.spelling}</p>
 
