@@ -10,6 +10,12 @@ export const subjectsReducer = (state = [], action) => {
             // console.log(state) 
             let stateLess = state.filter(subject => subject.id !== action.payload.id)
             return [...stateLess]
+        case 'NEW_WORD':
+    // debugger;
+            let subjectsUpdatedWord= state.map(subject =>
+                    subject.id === action.payload.id ? action.payload : subject
+                )
+            return subjectsUpdatedWord
         default:
             return state
 
