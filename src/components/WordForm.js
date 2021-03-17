@@ -1,4 +1,7 @@
 import React, { Component } from 'react';
+import { connect } from 'react-redux';
+
+import { newWord } from '../actions/wordActions.js';
 
 class WordForm extends Component {
 
@@ -20,12 +23,20 @@ class WordForm extends Component {
         this.setState({
             [name]: value
         })
-
-}
+    }
 
 
     handleSubmit = (e) => {
         e.preventDefault()
+    // debugger;
+        this.props.newWord(this.state, this.props.subject.id)
+
+        this.setState({
+            spelling: "",
+            pos: "",
+            definition: "",
+            sentences: ""
+        })
     }
 
 
@@ -54,4 +65,4 @@ class WordForm extends Component {
 }
 
 
-export default WordForm;
+export default connect(null, { newWord })(WordForm);
