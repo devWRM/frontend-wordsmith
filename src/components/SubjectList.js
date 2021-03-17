@@ -21,8 +21,9 @@ function SubjectList(props) {
 
                     {subject.name}  
 
-                    <WordsContainer words={subject.words}/>
+                    {/* <WordsContainer words={subject.words}/> */}
 
+                    <WordsContainer subject={subject}/>
                 </li>         
             )
              : <p>Add a subject to begin.</p>}
