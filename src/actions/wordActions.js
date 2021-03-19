@@ -12,3 +12,18 @@ export const newWord = (wordInput, subjectId) => {
         .then(subjectData => dispatch({ type: 'NEW_WORD', payload: subjectData}))
     }
 }
+
+
+export const deleteWord = (wordId, subjectId) => {
+    return (dispatch) => {
+        fetch(`http://localhost:3000/subjects/${subjectId}/words/${wordId}`, {
+            method: 'DELETE',
+            headers: { 'Content-Type': 'application/json' }
+        })
+        .then(resp => resp.json())
+        .then(subjectData => dispatch({ type: 'DELETE_WORD', payload: subjectData}))
+    }
+}
+
+
+
