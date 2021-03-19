@@ -1,7 +1,8 @@
 import React from 'react';
-import './App.css';
-import SubjectsContainer from './SubjectsContainer';
 
+import './App.css';
+import NavBar from './NavBar';
+import SubjectsContainer from './SubjectsContainer';
 
 
 class App extends React.Component {
@@ -13,6 +14,9 @@ class App extends React.Component {
           <p>
             WORDSMITH
           </p>
+
+            <NavBar />
+
               {/* <a
                 className="App-link"
                 href="https://reactjs.org"
