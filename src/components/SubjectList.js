@@ -15,6 +15,7 @@ function SubjectList(props) {
 
     return (
         <div>
+            
             SubjectList<br></br>
             { props.subjects.length ? props.subjects.map(subject => 
                 <li key={subject.id}>
