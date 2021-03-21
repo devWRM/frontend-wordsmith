@@ -1,11 +1,11 @@
 
 import React, { Component } from 'react';
 import { connect } from 'react-redux';
+import Routes from './Routes.js';
 
 import { fetchSubjects} from '../actions/subjectActions.js';
-import SubjectForm from './SubjectForm.js';
-import SubjectList from './SubjectList.js';
-import Routes from './Routes.js';
+// import SubjectForm from './SubjectForm.js';
+// import SubjectList from './SubjectList.js';
 
 class SubjectsContainer extends Component {
 
@@ -20,6 +20,7 @@ class SubjectsContainer extends Component {
         return(
             <div>
                 This is the SubjectsContainer
+
                 <Routes />
 
                 {/* <SubjectForm />
