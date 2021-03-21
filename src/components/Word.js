@@ -1,11 +1,22 @@
-import React from 'react'
+import React from 'react';
+import { connect } from 'react-redux';
 
-function Word() {
+
+function Word(props) {
+
+
     return (
         <div>
+
             WORD
         </div>
     )
 }
 
-export default Word
+
+let mapStateToProps = (state) => {
+    return { subjects: state.subjects }
+}
+
+
+export default connect(mapStateToProps)(Word);
