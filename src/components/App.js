@@ -1,4 +1,6 @@
 import React from 'react';
+// import Routes from './Routes.js';
+
 
 import './App.css';
 import NavBar from './NavBar';
@@ -30,6 +32,7 @@ class App extends React.Component {
               <p>This is App.js</p>
 
               <SubjectsContainer />
+              {/* <Routes /> */}
 
 
 
