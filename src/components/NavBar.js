@@ -2,10 +2,10 @@ import React from 'react';
 import { Link } from 'react-router-dom';
 
 
-import Home from './Home.js';
-import About from './About.js';
-import SubjectList from './SubjectList.js';
-import Resources from './Resources.js';
+// import Home from './Home.js';
+// import About from './About.js';
+// import SubjectList from './SubjectList.js';
+// import Resources from './Resources.js';
 
 function NavBar() {
     return (
