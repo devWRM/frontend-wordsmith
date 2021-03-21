@@ -11,10 +11,10 @@ function NavBar() {
     return (
         <div>
             
-            <Link to='./'>Home</Link>
-            <Link to='./about'>About</Link>
-            <Link to='./subjects'>Subjects</Link>
-            <Link to='./resources'>Resources</Link>
+            <Link to='/'>Home</Link>
+            <Link to='/about'>About</Link>
+            <Link to='/subjects'>Subjects</Link>
+            <Link to='/resources'>Resources</Link>
 
 
             {/* <Home />
