@@ -6,6 +6,8 @@ import { composeWithDevTools } from 'redux-devtools-extension';
 import { Provider } from 'react-redux';
 import thunk from 'redux-thunk';
 import { BrowserRouter as Router } from 'react-router-dom';
+// import { hashHistory } from 'react-router';
+// https://egghead.io/lessons/react-react-router-router-route-and-link
 
 import { rootReducer } from './reducers/rootReducer.js';
 import './index.css';
