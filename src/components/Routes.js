@@ -11,7 +11,7 @@ import Word from './Word.js';
 function Routes() {
     return (
         <div>
-            ROUTES HERE
+            
             <Switch>
                 <Route exact path='/' component={Home} />
                 <Route path='/about' component={About} />
