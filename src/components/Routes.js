@@ -17,8 +17,8 @@ function Routes() {
                 <Route path='/about' component={About} />
                 <Route path='/resources' component={Resources} />
                 <Route exact path='/subjects' component={SubjectList} />
+                <Route exact path='/subjects/:id/words/:id' component={Word} />
                 <Route path='/subjects/:id' component={Subject} />
-                <Route path='/subjects/:id/words/:id' component={Word} />
             </Switch>
 
 
