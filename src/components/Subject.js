@@ -19,7 +19,7 @@ function Subject(props) {
 }
 
 let mapStateToProps = (state) => {
-    return { subjects: state.subjects}
+    return { subjects: state.subjects }
 }
 
 export default connect(mapStateToProps)(Subject);
