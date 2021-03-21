@@ -1,11 +1,22 @@
-import React from 'react'
+import React from 'react';
+import { connect } from 'react-redux';
 
-function Subject() {
+function Subject(props) {
+    const selectedSubject = props.subjects.find(subject =>
+              subject.id ==  props.match.params.id
+    )
+// debugger;
+
     return (
         <div>
-            SINGLE SUBJECT
+            Subject name: { selectedSubject.name }
+            
         </div>
     )
 }
 
-export default Subject
+let mapStateToProps = (state) => {
+    return { subjects: state.subjects}
+}
+
+export default connect(mapStateToProps)(Subject);
