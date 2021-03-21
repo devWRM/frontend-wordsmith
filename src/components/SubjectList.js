@@ -1,5 +1,6 @@
 import React from 'react';
 import { connect } from 'react-redux';
+import { Link } from 'react-router-dom';
 
 import { deleteSubject } from '../actions/subjectActions.js';
 import WordsContainer from './WordsContainer.js';
@@ -19,11 +20,11 @@ function SubjectList(props) {
                 <li key={subject.id}>
                     <button onClick={ () => props.deleteSubject(subject.id)}>delete {subject.name}</button>
 
-                    {subject.name}  
+                    <Link to={`/subjects/${subject.id}`}>{subject.name} </Link>
 
                     {/* <WordsContainer words={subject.words}/> */}
 
-                    <WordsContainer subject={subject}/>
+                    {/* <WordsContainer subject={subject}/> */}
                 </li>         
             )
              : <p>Add a subject to begin.</p>}
