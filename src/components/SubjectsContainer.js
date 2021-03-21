@@ -5,7 +5,7 @@ import { connect } from 'react-redux';
 import { fetchSubjects} from '../actions/subjectActions.js';
 import SubjectForm from './SubjectForm.js';
 import SubjectList from './SubjectList.js';
-
+import Routes from './Routes.js';
 
 class SubjectsContainer extends Component {
 
@@ -20,9 +20,10 @@ class SubjectsContainer extends Component {
         return(
             <div>
                 This is the SubjectsContainer
+                <Routes />
 
-                <SubjectForm />
-                <SubjectList />
+                {/* <SubjectForm />
+                <SubjectList /> */}
 
 
             </div>
