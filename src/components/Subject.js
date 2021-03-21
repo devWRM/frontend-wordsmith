@@ -1,6 +1,9 @@
 import React from 'react';
 import { connect } from 'react-redux';
 
+import WordsContainer from './WordsContainer.js';
+
+
 function Subject(props) {
     const selectedSubject = props.subjects.find(subject =>
               subject.id ==  props.match.params.id
@@ -10,7 +13,7 @@ function Subject(props) {
     return (
         <div>
             Subject name: { selectedSubject.name }
-            
+            <WordsContainer subject={selectedSubject}/>
         </div>
     )
 }
