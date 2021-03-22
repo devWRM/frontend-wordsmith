@@ -3,12 +3,31 @@ import { connect } from 'react-redux';
 
 
 function Word(props) {
+// word ID "3" =>>  props.match.params.id
+//          3  =>>  props.subjects[1].words[0].id
 
 
+    let selectedWord;
+
+     for(var i=0; i<props.subjects.length; i++) {
+            if(props.subjects[i].words) {
+                for(var x=0; x<props.subjects[i].words.length; x++) {
+                    if(props.subjects[i].words[x].id == props.match.params.id) {
+                        selectedWord = [props.subjects[i], props.subjects[i].words[x]]
+                    }
+                }
+            }
+    }
+    
+    
     return (
         <div>
+            <h3>SUBJECT: {selectedWord[0].name}</h3>
 
-            WORD
+            Word: {selectedWord[1].spelling}<br></br>
+            POS: {selectedWord[1].pos}<br></br>
+            Definition: {selectedWord[1].definition}<br></br>
+            Sentences: {selectedWord[1].sentences}           
         </div>
     )
 }
