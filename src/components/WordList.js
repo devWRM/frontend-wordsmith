@@ -21,6 +21,7 @@ function WordList(props) {
                 <div key={word.id}>
                     <p>
                         <button onClick={() => handleDelete(word)}>delete</button>
+                        
                         <Link to={`/subjects/${word.subject_id}/words/${word.id}`}>{word.spelling}</Link>
                     </p>                   
                 </div>
