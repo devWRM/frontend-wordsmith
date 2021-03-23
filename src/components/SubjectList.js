@@ -3,7 +3,7 @@ import { connect } from 'react-redux';
 import { Link } from 'react-router-dom';
 
 import { deleteSubject } from '../actions/subjectActions.js';
-import WordsContainer from './WordsContainer.js';
+import SubjectForm from './SubjectForm.js';
 
 
 function SubjectList(props) {
@@ -15,6 +15,7 @@ function SubjectList(props) {
 
     return (
         <div>
+            <SubjectForm />
             
             SubjectList<br></br>
             { props.subjects.length ? props.subjects.map(subject => 
@@ -23,9 +24,6 @@ function SubjectList(props) {
 
                     <Link to={`/subjects/${subject.id}`}>{subject.name} </Link>
 
-                    {/* <WordsContainer words={subject.words}/> */}
-
-                    {/* <WordsContainer subject={subject}/> */}
                 </li>         
             )
              : <p>Add a subject to begin.</p>}
