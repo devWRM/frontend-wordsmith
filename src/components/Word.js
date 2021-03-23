@@ -1,5 +1,6 @@
 import React from 'react';
 import { connect } from 'react-redux';
+import { Link } from 'react-router-dom';
 
 
 function Word(props) {
@@ -22,7 +23,7 @@ function Word(props) {
     
     return (
         <div>
-            <h3>SUBJECT: {selectedWord[0].name}</h3>
+            <h3>SUBJECT: <Link to={`/subjects/${selectedWord[0].id}`}>{selectedWord[0].name}</Link></h3>
 
             Word: {selectedWord[1].spelling}<br></br>
             POS: {selectedWord[1].pos}<br></br>
