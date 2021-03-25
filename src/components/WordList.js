@@ -4,6 +4,7 @@ import { Link } from 'react-router-dom';
 
 
 import { deleteWord } from '../actions/wordActions.js';
+import WordLike from './WordLike.js';
 
 function WordList(props) {
 
@@ -21,7 +22,7 @@ function WordList(props) {
                 <div key={word.id}>
                     <p>
                         <button onClick={() => handleDelete(word)}>delete</button>
-                        
+                        <WordLike />
                         <Link to={`/subjects/${word.subject_id}/words/${word.id}`}>{word.spelling}</Link>
                     </p>                   
                 </div>
