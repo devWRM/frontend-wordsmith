@@ -9,12 +9,12 @@ import { Link } from 'react-router-dom';
 
 function NavBar() {
     return (
-        <div>
+        <div style = {{ padding: '10px', fontFamily: 'fira sans', fontSize: '30px', color: '#000' }}>
             
-            <Link to='/'>Home</Link>
-            <Link to='/about'>About</Link>
-            <Link to='/subjects'>Subjects</Link>
-            <Link to='/resources'>Resources</Link>
+            <Link className='navbar-link' to='/'>Home</Link>
+            <Link className='navbar-link' to='/about'>About</Link>
+            <Link className='navbar-link' to='/subjects'>Subjects</Link>
+            <Link className='navbar-link' to='/resources'>Resources</Link>
 
 
             {/* <Home />
