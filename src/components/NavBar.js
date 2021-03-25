@@ -1,6 +1,7 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
 
+import './NavBar.css';
 
 // import Home from './Home.js';
 // import About from './About.js';
