@@ -2,9 +2,8 @@ import React from 'react'
 
 function Home() {
     return (
-        <div>
-            Welcome to Wordsmith<br></br>
-            Improve your English vocabulary and communication skills by tracking your words.
+        <div className="container">
+            Welcome to Wordsmith: Track your English words to increase your vocabulary and improve your communication skills.
         </div>
     )
 }
