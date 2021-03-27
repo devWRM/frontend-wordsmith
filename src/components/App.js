@@ -29,7 +29,7 @@ class App extends React.Component {
               </a> */}
         </header>
 
-              <p>This is App.js</p>
+              <p>  </p>
 
               <SubjectsContainer />
               {/* <Routes /> */}
