@@ -19,7 +19,6 @@ class SubjectsContainer extends Component {
 
         return(
             <div>
-                This is the SubjectsContainer
 
                 <Routes />
 
