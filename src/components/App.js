@@ -29,12 +29,12 @@ class App extends React.Component {
               </a> */}
         </header>
 
-              <p>  </p>
+              <div className="parent-container">
 
-              <SubjectsContainer />
+                <SubjectsContainer />
               {/* <Routes /> */}
 
-
+              </div>
 
 
       </div>
