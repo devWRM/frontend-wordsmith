@@ -8,9 +8,12 @@ import './NavBar.css';
 // import SubjectList from './SubjectList.js';
 // import Resources from './Resources.js';
 
+// <div style = {{ padding: '10px', fontFamily: 'fira sans', fontSize: '30px', color: '#000' }}>
+
+
 function NavBar() {
     return (
-        <div style = {{ padding: '10px', fontFamily: 'fira sans', fontSize: '30px', color: '#000' }}>
+        <div style = {{ padding: '10px', fontSize: '30px' }}>
             
             <Link className='navbar-link' to='/'>Home</Link>
             <Link className='navbar-link' to='/about'>About</Link>
