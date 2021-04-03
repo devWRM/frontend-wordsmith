@@ -24,6 +24,10 @@
   padding-top: 50px;
 
 
+  .word-container {
+    display: flex;
+  }
+
   /* position: absolute;
   top: 50%;
   left: 50%; */
