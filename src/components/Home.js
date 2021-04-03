@@ -5,8 +5,8 @@ function Home() {
         <div className="container">
             <h2>Welcome to Wordsmith</h2>
             <h4>wordsmith [ wurd-smith ] <i>noun</i></h4>
-                - an expert in the use of words<br></br>
-                - special skill in word usage
+                <li>an expert in the use of words</li>
+                <li>special skill in word usage</li>
                 {/* <br></br>- a collector of words
                 <br></br>- skilled in the use of words
                 <br></br>- an authority in word usage */}
