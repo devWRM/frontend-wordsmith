@@ -22,19 +22,29 @@
   height: 300px;
   border-radius: 50%;
   padding-top: 50px;
+}
+
+  .word-container > div {
+    width: 75px;
+    height: 40px;
+    /* background: red; */
+    /* border: 1px solid; */
+  }
 
 
   .word-container {
     display: flex;
   }
 
+
+
   /* position: absolute;
   top: 50%;
   left: 50%; */
-}
 
 
-.parent-container {
+
+.app-container {
   display: flex;
   justify-content: center;
   align-items: center;
