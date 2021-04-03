@@ -2,7 +2,7 @@ import React from 'react';
 import { connect } from 'react-redux';
 import { Link } from 'react-router-dom';
 
-
+import './App.css';
 import { deleteWord } from '../actions/wordActions.js';
 import WordLike from './WordLike.js';
 
@@ -19,12 +19,12 @@ function WordList(props) {
         <div>
             
             {props.words.map(word =>
-                <div key={word.id}>
-                    <p>
-                        <button onClick={() => handleDelete(word)}>delete</button>
-                        <WordLike />
-                        <Link to={`/subjects/${word.subject_id}/words/${word.id}`}>{word.spelling}</Link>
-                    </p>                   
+                <div key={word.id} className="word-container">
+                    
+                        <div><button onClick={() => handleDelete(word)}>delete</button></div>
+                        <div><WordLike /></div>
+                        <div><Link to={`/subjects/${word.subject_id}/words/${word.id}`}>{word.spelling}</Link></div>
+                                       
                 </div>
 
             )}
