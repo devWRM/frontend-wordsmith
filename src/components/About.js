@@ -8,9 +8,9 @@ function About() {
             <ul>
                 <li>see a list of subjects</li>
                 <li>create a subject</li>
-                <li>delete a subject (including all of its words)</li>
-                <li>see a list of words for a specific subject</li>
-                <li>see a words spelling, part of speech, definition, and sentences</li>
+                <li>delete a subject (and its words)</li>
+                <li>see a list of words for each subject</li>
+                <li>see a word's spelling, pos (part of speech), definition, and sentences</li>
                 <li>create a word for a specific subject</li>
                 <li>delete a subject</li>
             </ul>
