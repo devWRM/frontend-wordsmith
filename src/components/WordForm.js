@@ -44,7 +44,7 @@ class WordForm extends Component {
     render() {
         return (
             <div>
-            <form onSubmit={this.handleSubmit}>
+            <form onSubmit={this.handleSubmit} className="word-form">
                 <label>Word spelling</label>
                 <input onChange={this.handleChange} type="text" value={this.state.name} name="spelling"></input><br></br>
 
