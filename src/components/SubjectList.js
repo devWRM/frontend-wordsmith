@@ -19,10 +19,10 @@ function SubjectList(props) {
             
             SubjectList<br></br>
             { props.subjects.length ? props.subjects.map(subject => 
-                <li key={subject.id}>
-                    <button onClick={ () => props.deleteSubject(subject.id)}>delete {subject.name}</button>
+                <li key={subject.id} className='subject-list'>
+                    <button onClick={ () => props.deleteSubject(subject.id)} className='subject-button'>delete {subject.name}</button>
 
-                    <Link to={`/subjects/${subject.id}`}>{subject.name} </Link>
+                    <Link to={`/subjects/${subject.id}`} className='subject-link'>{subject.name} </Link>
 
                 </li>         
             )
