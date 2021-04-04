@@ -60,6 +60,19 @@ form {
   margin: 10px;
 }
 
+.subject-list {
+  padding: 5px;
+}
+
+.subject-button {
+  width: 200px;
+  margin-right: 10px;
+}
+
+.subject-link {
+  font-size: 20px;
+}
+
 /* .App-logo {
   height: 40vmin;
   pointer-events: none;
