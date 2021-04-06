@@ -12,7 +12,7 @@ function Subject(props) {
 
     return (
         <div>
-            Subject name: { selectedSubject.name }
+            <h3>Subject name: { selectedSubject.name }</h3>
             <WordsContainer subject={selectedSubject}/>
         </div>
     )
