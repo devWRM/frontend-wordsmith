@@ -74,7 +74,8 @@ form {
 }
 
 .word-form {
-  
+  margin: 10px;
+  padding: 10px;
 }
 
 /* .App-logo {
