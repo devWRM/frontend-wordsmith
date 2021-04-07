@@ -78,6 +78,19 @@ form {
   padding: 10px;
 }
 
+
+.word-label {
+  padding-right: 50px;
+}
+
+.word-form > input {
+  width: 300px;
+  padding-bottom: 10px;
+  margin-bottom: 10px;
+}
+
+
+
 /* .App-logo {
   height: 40vmin;
   pointer-events: none;
