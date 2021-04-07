@@ -45,16 +45,16 @@ class WordForm extends Component {
         return (
             <div>
             <form onSubmit={this.handleSubmit} className="word-form">
-                <label>Word spelling</label>
+                <label className="word-label">Word spelling</label>
                 <input onChange={this.handleChange} type="text" value={this.state.name} name="spelling"></input><br></br>
 
-                <label>Part of speech</label>
+                <label className="word-label">Part of speech</label>
                 <input onChange={this.handleChange} type="text" value={this.state.pos} name="pos"></input><br></br>
 
-                <label>Definition</label>
+                <label className="word-label">Definition</label>
                 <input onChange={this.handleChange} type="text" value={this.state.definition} name="definition"></input><br></br>
 
-                <label>Sentences</label>
+                <label className="word-label">Sentences</label>
                 <input onChange={this.handleChange} type="text" value={this.state.sentences} name="sentences"></input><br></br>
 
                 <input type="submit" value="Create word"></input><br></br>
