@@ -3,7 +3,7 @@ import React from 'react'
 function About() {
     return (
         <div className="container">
-            <h3>WORDSMITH</h3>
+            <h2>WORDSMITH</h2>
             <p>Track your English words to increase your vocabulary and improve your communication skills.</p>
             <ul>
                 <li>see a list of subjects</li>
