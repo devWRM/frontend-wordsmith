@@ -3,7 +3,7 @@ import React from 'react'
 function Home() {
     return (
         <div className="container">
-            <h2>Welcome to Wordsmith</h2>
+            <h2>WORDSMITH</h2>
             <h4>wordsmith [ wurd-smith ] <i>noun</i></h4>
                 <li>an expert in the use of words</li>
                 <li>special skill in word usage</li>
