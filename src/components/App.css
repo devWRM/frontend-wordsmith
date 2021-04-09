@@ -3,7 +3,7 @@
 }
 
 .App-header {
-  background-color: #282c34;
+  background-color: #9baed3;
   min-height: 25vh;
   display: flex;
   flex-direction: column;
@@ -89,6 +89,14 @@ form {
   margin-bottom: 10px;
 }
 
+a:hover {
+  background-color: yellowgreen;
+}
+
+
+
+
+/* background-color: #282c34; */
 
 
 /* .App-logo {
