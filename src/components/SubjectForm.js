@@ -35,7 +35,7 @@ class SubjectForm extends Component {
     render() {
         return (
             <form onSubmit={this.handleSubmit} className="subject-form">
-                <label>Subject Name: </label>
+                <label>Add a subject name: </label>
                 <input type='text' value={this.state.name} onChange={this.handleChange} name='name' className="subject-name"></input>
                 <input type='submit' value='New Subject'></input>
             </form>
