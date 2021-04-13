@@ -38,6 +38,18 @@ function Resources() {
                 English Practice 3
             </a></p>
 
+            <p><a
+                // className="resources-link"
+                href="https://www.youtube.com/watch?v=7ndXTIGTMo4&list=PLjCw5iaiPkINqgijTOWM4NEPvVDwDumD7"
+                target="_blank"
+            >
+                English Practice 4
+            </a></p>
+
+
+
+
+
         </div>
     )
 }
