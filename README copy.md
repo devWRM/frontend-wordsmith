@@ -1,4 +1,4 @@
-# Getting Started with Create React App
+# Wordsmith
 
 [Live Demo](https://frontend-wordsmith.herokuapp.com).
 
