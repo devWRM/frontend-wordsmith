@@ -1,6 +1,6 @@
 # Wordsmith
 
-[Live Demo](https://frontend-wordsmith.herokuapp.com).
+[Live Demo](https://frontend-wordsmith.herokuapp.com "Live Demo").
 
 ### About Wordsmith
 
