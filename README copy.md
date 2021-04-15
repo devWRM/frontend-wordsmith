@@ -2,22 +2,24 @@
 
 [Live Demo](https://frontend-wordsmith.herokuapp.com).
 
-## About Wordsmith
+### About Wordsmith
 
-Wordsmith enables English language learners to input the English vocabulary words they're learning, grouped by subject. After the user inputs words, they can pick a subject (ex. banking or restaurant) and review all the English words associated with that subject. This is convenient when a user needs to run an errand or attend an event. Because the subject of that errand or event can be pulled up and reviewed ahead of time or during so the user can review the English words to prepare them to confidently understand and communicate in English.
+Wordsmith enables English language learners to input the English vocabulary words they're learning, grouped by subject. After the user inputs words, they can pick a subject (ex. banking or restaurant) and review all the English words associated with that subject. This is convenient when a user needs to run an errand or attend an event. The subject of that errand or event can be pulled up to review the associated words ahead of time to prepare the user to confidently understand and communicate in English. If the user needs a little assistance, they can consult the subject word list during as well. 
 
-### `yarn start`
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+### Tech Stack
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+React
+Redux
+Ruby on Rails
+Postgresql
 
-### `yarn test`
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+
+
+
+
+
 
 ### `yarn build`
 
