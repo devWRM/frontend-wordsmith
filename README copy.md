@@ -2,9 +2,9 @@
 
 [Live Demo](https://frontend-wordsmith.herokuapp.com).
 
-## Available Scripts
+## About Wordsmith
 
-In the project directory, you can run:
+Wordsmith enables English language learners to input the English vocabulary words they're learning, grouped by subject. After the user inputs words, they can pick a subject (ex. banking or restaurant) and review all the English words associated with that subject. This is convenient when a user needs to run an errand or attend an event. Because the subject of that errand or event can be pulled up and reviewed ahead of time or during so the user can review the English words to prepare them to confidently understand and communicate in English.
 
 ### `yarn start`
 
