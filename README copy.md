@@ -1,6 +1,6 @@
 # Wordsmith
 
-[Live Demo](https://frontend-wordsmith.herokuapp.com "Live Demo").
+[Live Demo](https://frontend-wordsmith.herokuapp.com "Live Demo")
 
 ### About Wordsmith
 
@@ -9,10 +9,10 @@ Wordsmith enables English language learners to input the English vocabulary word
 
 ### Tech Stack
 
-React
-Redux
-Ruby on Rails
-Postgresql
+*React
+*Redux
+*Ruby on Rails
+*Postgresql
 
 
 
