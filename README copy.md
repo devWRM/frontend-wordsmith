@@ -2,6 +2,7 @@
 
 [Live Demo](https://frontend-wordsmith.herokuapp.com "Live Demo")
 
+
 ### About Wordsmith
 
 Wordsmith enables English language learners to input the English vocabulary words they're learning, grouped by subject. After the user inputs words, they can pick a subject (ex. banking or restaurant) and review all the English words associated with that subject. This is convenient when a user needs to run an errand or attend an event. The subject of that errand or event can be pulled up to review the associated words ahead of time to prepare the user to confidently understand and communicate in English. If the user needs a little assistance, they can consult the subject word list during as well. 
@@ -18,23 +19,15 @@ Back End
     * Postgresql
 
 
+### Upcoming Features
+
+* Users can add Resources
+* 
 
 
+### Back End
 
 
-
-
-### `yarn build`
-
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `yarn eject`
 
 **Note: this is a one-way operation. Once you `eject`, you can’t go back!**
 
