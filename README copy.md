@@ -9,10 +9,13 @@ Wordsmith enables English language learners to input the English vocabulary word
 
 ### Tech Stack
 
-*React
-*Redux
-*Ruby on Rails
-*Postgresql
+Front End
+* React
+    * Redux
+
+Back End
+* Ruby on Rails
+    * Postgresql
 
 
 
