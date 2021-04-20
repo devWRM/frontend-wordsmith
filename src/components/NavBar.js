@@ -8,8 +8,6 @@ import './NavBar.css';
 // import SubjectList from './SubjectList.js';
 // import Resources from './Resources.js';
 
-// <div style = {{ padding: '10px', fontFamily: 'fira sans', fontSize: '30px', color: '#000' }}>
-
 
 function NavBar() {
     return (
