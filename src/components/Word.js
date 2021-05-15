@@ -7,6 +7,7 @@ function Word(props) {
 // word ID "3" =>>  props.match.params.id
 //          3  =>>  props.subjects[1].words[0].id
 
+// debugger;
 
     let selectedWord;
 
