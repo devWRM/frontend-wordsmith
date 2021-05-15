@@ -9,7 +9,8 @@ function Resources() {
                 className="resources-link"
                 href="https://translate.google.com"
                 target="_blank"
-                // rel="noopener noreferrer"
+                // rel="noreferrer"
+                rel="noopener noreferrer"
             >
                   Google Translate
             </a></p>
