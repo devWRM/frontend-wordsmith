@@ -22,7 +22,7 @@ Back End
 ### Upcoming Features
 
 * User login
-* Users can add Resources
+* Users can add and delete Resources
 * Search feature for Subjects and Words
 
 
