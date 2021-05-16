@@ -1,6 +1,8 @@
 import React from 'react';
 import { connect } from 'react-redux';
 
+import UserForm from './UserForm.js';
+
 
 
 class User extends React.Component {
@@ -9,7 +11,8 @@ class User extends React.Component {
 
         return(
             <div>
-                STILL A USER
+                <UserForm />
+                USER!
             </div>
         )
 
