@@ -7,7 +7,7 @@ class UserForm extends React.Component {
     render() {
         return(
             <div>
-                Fill out this User form.
+                Fill out USER FORM.
             </div>
         )
     }
