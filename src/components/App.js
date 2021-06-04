@@ -16,7 +16,7 @@ class App extends React.Component {
             WORDSMITH
           </p>
 
-            <User />
+            {/* <User /> */}
             <NavBar />
 
               
