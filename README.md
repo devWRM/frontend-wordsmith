@@ -19,6 +19,16 @@ Back End
     * Postgresql
 
 
+### How to run Wordsmith
+
+* Fork and clone the front end and back end
+    https://github.com/devWRM/frontend-wordsmith
+    https://github.com/devWRM/backend-wordsmith
+* cd into the back end directory and run: rails s
+* cd into the front end directory and run: npm start 
+    Then enter y (yes run it on a different port)
+
+
 ### Upcoming Features
 
 * User login
