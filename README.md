@@ -3,7 +3,7 @@
 [Live Demo](https://frontend-wordsmith.herokuapp.com "Live Demo")
 
 
-<img src="src/images/wordsmith.jpg">
+<img src="https://raw.githubusercontent.com/devWRM/frontend-wordsmith/main/src/images/wordsmith.png">
 ![](https://raw.githubusercontent.com/devWRM/frontend-wordsmith/main/src/images/wordsmith.png)
 
 ### About Wordsmith
