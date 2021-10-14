@@ -4,7 +4,7 @@
 
 
 <img src="src/images/wordsmith.jpg">
-![](src/images/wordsmith.jpg)
+![](https://raw.githubusercontent.com/devWRM/frontend-wordsmith/main/src/images/wordsmith.png)
 
 ### About Wordsmith
 
