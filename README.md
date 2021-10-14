@@ -4,7 +4,13 @@
 
 
 <img src="https://raw.githubusercontent.com/devWRM/frontend-wordsmith/main/src/images/wordsmith.png">
-![](https://raw.githubusercontent.com/devWRM/frontend-wordsmith/main/src/images/wordsmith.png)
+
+<!--
+
+NOTE Below: the path should be in markdown
+ ![](https://raw.githubusercontent.com/devWRM/frontend-wordsmith/main/src/images/wordsmith.png) 
+
+-->
 
 ### About Wordsmith
 
