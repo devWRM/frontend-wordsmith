@@ -3,7 +3,7 @@
 [Live Demo](https://frontend-wordsmith.herokuapp.com "Live Demo")
 
 
-<img src="images/wordsmith.jpg">
+<img src="src/images/wordsmith.jpg">
 
 ### About Wordsmith
 
