@@ -4,6 +4,7 @@
 
 
 <img src="src/images/wordsmith.jpg">
+![](src/images/wordsmith.jpg)
 
 ### About Wordsmith
 
